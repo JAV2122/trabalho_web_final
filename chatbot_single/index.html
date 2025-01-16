@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <img src="imagens/chatbot.png" alt="Chatbot Icon">
+            <h1>Suporte</h1>
+            <p>Chatbot feito por Isabella Neckel da turma 101-Informática</p>
+        </header>
+        <main class="chat-main">
+            <div id="chat-output" class="chat-output">
+            </div>
+            <div class="pre-text-buttons">
+                <button class="pre-text-button">Alguma noticia nova sobre Jujutsu Kaisen?</button>
+                <button class="pre-text-button">Qual é o melhor capítulo de Jujutsu Kaisen?</button>
+                <button class="pre-text-button">Quem fez esse chatbot?</button>
+                <button class="pre-text-button">Quem é o Satoru Gojo?</button>
+            </div>
+            <form id="chat-form" class="chat-form">
+                <input 
+                    type="text" 
+                    id="chat-input" 
+                    class="chat-input" 
+                    placeholder="Digite sua mensagem..." 
+                    autocomplete="off">
+                <button type="submit" class="send-button">Enviar</button>
+            </form>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
